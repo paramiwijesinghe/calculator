@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+body{
+    background-color: rgba(231, 242, 241, 0.146);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#main-container{
+    background-color:#4BA6FF ;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(20, 19, 19, 0.5);
+    
+
+   
+   
+}
+
+#answer-box{
+    font-family: 'DigitalClockFont';
+    src: url('fonts/digital-7.ttf');
+    background-color: rgb(195, 237, 229);
+    color:black;
+    font-size:35px;
+    border-radius: 6px;
+    padding: 0px 10px;
+    height: 75px;
+    width: 350px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    position:relative;
+    top: 30px;
+    left: 65px;
+
+    
+}
+
+#display{
+    font-family: 'DigitalClockFont' , Arial, sans-serif;
+}
+
+#button-boxes{
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+#delete{
+    width: 100%;
+}
+
+
+input[type=button]{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 75px;
+    height: 50px;
+    color: #fff;
+    background:#3255a8 ;
+    padding: 10px 10px 10px 10px;
+    margin: 6px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+

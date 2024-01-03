@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script src="script.js"></script>
+    <div id="main-container">
+        <div id="answer-box"><p id="display">0</p></div>
+        
+        <div id="button-boxes">
+            <form action="" name="buttons" id="button">
+                <input type="button" id="eraser" onclick="functionForErase()" value="x">
+                <input type="button" id="num0" onclick="functionForNum0()" value="0">
+                <input type="button" id="add" onclick="functionForADD()" value="+">
+                <input type="button" id="sub" onclick="functionForSUB()" value="-">
+                <br>
+
+                <input type="button" id="num7" onclick="functionForNum7()" value="7">
+                <input type="button" id="num8" onclick="functionForNum8()" value="8">
+                <input type="button" id="num9" onclick="functionForNum9()" value="9">
+                <input type="button" id="mul" onclick="functionForMUL()" value="*">
+                <br>
+                <input type="button" id="num4" onclick="functionForNum4()" value="4">
+                <input type="button" id="num5" onclick="functionForNum5()" value="5">
+                <input type="button" id="num6" onclick="functionForNum6()" value="6">
+                <input type="button" id="div" onclick="functionForDIV()" value="/">
+                <br>
+
+                <input type="button" id="num1" onclick="functionForNum1()" value="1">
+                <input type="button" id="num2" onclick="functionForNum2()" value="2">
+                <input type="button" id="num3" onclick="functionForNum3()" value="3">
+                <input type="button" id="equal" onclick="functionForEQ()" value="=">
+                <br>
+
+                <input type="button" id="delete" onclick="functionForCLEAR()" value="DELETE ALL">
+
+
+                
+            </form>
+           
+        </div>
+    </div>
+</body>
+</html>
